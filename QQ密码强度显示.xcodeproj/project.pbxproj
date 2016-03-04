@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633BE6F81C827AF400701ACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633BE6F71C827AF400701ACB /* main.m */; };
+		633BE6FB1C827AF400701ACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633BE6FA1C827AF400701ACB /* AppDelegate.m */; };
+		633BE6FE1C827AF400701ACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633BE6FD1C827AF400701ACB /* ViewController.m */; };
+		633BE7011C827AF400701ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BE6FF1C827AF400701ACB /* Main.storyboard */; };
+		633BE7041C827AF400701ACB /* QQ______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 633BE7021C827AF400701ACB /* QQ______.xcdatamodeld */; };
+		633BE7061C827AF500701ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633BE7051C827AF500701ACB /* Assets.xcassets */; };
+		633BE7091C827AF500701ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BE7071C827AF500701ACB /* LaunchScreen.storyboard */; };
+		633BE7141C827AF500701ACB /* QQ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633BE7131C827AF500701ACB /* QQ______Tests.m */; };
+		633BE71F1C827AF500701ACB /* QQ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633BE71E1C827AF500701ACB /* QQ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633BE7101C827AF500701ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633BE6EB1C827AF400701ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633BE6F21C827AF400701ACB;
+			remoteInfo = "QQ密码强度显示";
+		};
+		633BE71B1C827AF500701ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633BE6EB1C827AF400701ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633BE6F21C827AF400701ACB;
+			remoteInfo = "QQ密码强度显示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		633BE6F31C827AF400701ACB /* QQ密码强度显示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ密码强度显示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633BE6F71C827AF400701ACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633BE6F91C827AF400701ACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633BE6FA1C827AF400701ACB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633BE6FC1C827AF400701ACB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		633BE6FD1C827AF400701ACB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		633BE7001C827AF400701ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633BE7031C827AF400701ACB /* QQ______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QQ______.xcdatamodel"; sourceTree = "<group>"; };
+		633BE7051C827AF500701ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633BE7081C827AF500701ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633BE70A1C827AF500701ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633BE70F1C827AF500701ACB /* QQ密码强度显示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ密码强度显示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633BE7131C827AF500701ACB /* QQ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ______Tests.m"; sourceTree = "<group>"; };
+		633BE7151C827AF500701ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633BE71A1C827AF500701ACB /* QQ密码强度显示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ密码强度显示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633BE71E1C827AF500701ACB /* QQ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ______UITests.m"; sourceTree = "<group>"; };
+		633BE7201C827AF500701ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633BE6F01C827AF400701ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633BE70C1C827AF500701ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633BE7171C827AF500701ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633BE6EA1C827AF400701ACB = {
+			isa = PBXGroup;
+			children = (
+				633BE6F51C827AF400701ACB /* QQ密码强度显示 */,
+				633BE7121C827AF500701ACB /* QQ密码强度显示Tests */,
+				633BE71D1C827AF500701ACB /* QQ密码强度显示UITests */,
+				633BE6F41C827AF400701ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633BE6F41C827AF400701ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633BE6F31C827AF400701ACB /* QQ密码强度显示.app */,
+				633BE70F1C827AF500701ACB /* QQ密码强度显示Tests.xctest */,
+				633BE71A1C827AF500701ACB /* QQ密码强度显示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633BE6F51C827AF400701ACB /* QQ密码强度显示 */ = {
+			isa = PBXGroup;
+			children = (
+				633BE6F91C827AF400701ACB /* AppDelegate.h */,
+				633BE6FA1C827AF400701ACB /* AppDelegate.m */,
+				633BE6FC1C827AF400701ACB /* ViewController.h */,
+				633BE6FD1C827AF400701ACB /* ViewController.m */,
+				633BE6FF1C827AF400701ACB /* Main.storyboard */,
+				633BE7051C827AF500701ACB /* Assets.xcassets */,
+				633BE7071C827AF500701ACB /* LaunchScreen.storyboard */,
+				633BE70A1C827AF500701ACB /* Info.plist */,
+				633BE7021C827AF400701ACB /* QQ______.xcdatamodeld */,
+				633BE6F61C827AF400701ACB /* Supporting Files */,
+			);
+			path = "QQ密码强度显示";
+			sourceTree = "<group>";
+		};
+		633BE6F61C827AF400701ACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633BE6F71C827AF400701ACB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		633BE7121C827AF500701ACB /* QQ密码强度显示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				633BE7131C827AF500701ACB /* QQ______Tests.m */,
+				633BE7151C827AF500701ACB /* Info.plist */,
+			);
+			path = "QQ密码强度显示Tests";
+			sourceTree = "<group>";
+		};
+		633BE71D1C827AF500701ACB /* QQ密码强度显示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				633BE71E1C827AF500701ACB /* QQ______UITests.m */,
+				633BE7201C827AF500701ACB /* Info.plist */,
+			);
+			path = "QQ密码强度显示UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633BE6F21C827AF400701ACB /* QQ密码强度显示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633BE7231C827AF500701ACB /* Build configuration list for PBXNativeTarget "QQ密码强度显示" */;
+			buildPhases = (
+				633BE6EF1C827AF400701ACB /* Sources */,
+				633BE6F01C827AF400701ACB /* Frameworks */,
+				633BE6F11C827AF400701ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ密码强度显示";
+			productName = "QQ密码强度显示";
+			productReference = 633BE6F31C827AF400701ACB /* QQ密码强度显示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633BE70E1C827AF500701ACB /* QQ密码强度显示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633BE7261C827AF500701ACB /* Build configuration list for PBXNativeTarget "QQ密码强度显示Tests" */;
+			buildPhases = (
+				633BE70B1C827AF500701ACB /* Sources */,
+				633BE70C1C827AF500701ACB /* Frameworks */,
+				633BE70D1C827AF500701ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633BE7111C827AF500701ACB /* PBXTargetDependency */,
+			);
+			name = "QQ密码强度显示Tests";
+			productName = "QQ密码强度显示Tests";
+			productReference = 633BE70F1C827AF500701ACB /* QQ密码强度显示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633BE7191C827AF500701ACB /* QQ密码强度显示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633BE7291C827AF500701ACB /* Build configuration list for PBXNativeTarget "QQ密码强度显示UITests" */;
+			buildPhases = (
+				633BE7161C827AF500701ACB /* Sources */,
+				633BE7171C827AF500701ACB /* Frameworks */,
+				633BE7181C827AF500701ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633BE71C1C827AF500701ACB /* PBXTargetDependency */,
+			);
+			name = "QQ密码强度显示UITests";
+			productName = "QQ密码强度显示UITests";
+			productReference = 633BE71A1C827AF500701ACB /* QQ密码强度显示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633BE6EB1C827AF400701ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杜苏南";
+				TargetAttributes = {
+					633BE6F21C827AF400701ACB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8F877YDX39;
+					};
+					633BE70E1C827AF500701ACB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8F877YDX39;
+						TestTargetID = 633BE6F21C827AF400701ACB;
+					};
+					633BE7191C827AF500701ACB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8F877YDX39;
+						TestTargetID = 633BE6F21C827AF400701ACB;
+					};
+				};
+			};
+			buildConfigurationList = 633BE6EE1C827AF400701ACB /* Build configuration list for PBXProject "QQ密码强度显示" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633BE6EA1C827AF400701ACB;
+			productRefGroup = 633BE6F41C827AF400701ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633BE6F21C827AF400701ACB /* QQ密码强度显示 */,
+				633BE70E1C827AF500701ACB /* QQ密码强度显示Tests */,
+				633BE7191C827AF500701ACB /* QQ密码强度显示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633BE6F11C827AF400701ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633BE7091C827AF500701ACB /* LaunchScreen.storyboard in Resources */,
+				633BE7061C827AF500701ACB /* Assets.xcassets in Resources */,
+				633BE7011C827AF400701ACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633BE70D1C827AF500701ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633BE7181C827AF500701ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633BE6EF1C827AF400701ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633BE6FE1C827AF400701ACB /* ViewController.m in Sources */,
+				633BE7041C827AF400701ACB /* QQ______.xcdatamodeld in Sources */,
+				633BE6FB1C827AF400701ACB /* AppDelegate.m in Sources */,
+				633BE6F81C827AF400701ACB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633BE70B1C827AF500701ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633BE7141C827AF500701ACB /* QQ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633BE7161C827AF500701ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633BE71F1C827AF500701ACB /* QQ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633BE7111C827AF500701ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633BE6F21C827AF400701ACB /* QQ密码强度显示 */;
+			targetProxy = 633BE7101C827AF500701ACB /* PBXContainerItemProxy */;
+		};
+		633BE71C1C827AF500701ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633BE6F21C827AF400701ACB /* QQ密码强度显示 */;
+			targetProxy = 633BE71B1C827AF500701ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633BE6FF1C827AF400701ACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633BE7001C827AF400701ACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633BE7071C827AF500701ACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633BE7081C827AF500701ACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633BE7211C827AF500701ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		633BE7221C827AF500701ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633BE7241C827AF500701ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QQ密码强度显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.QQ------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		633BE7251C827AF500701ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QQ密码强度显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.QQ------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		633BE7271C827AF500701ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QQ密码强度显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.QQ------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ密码强度显示.app/QQ密码强度显示";
+			};
+			name = Debug;
+		};
+		633BE7281C827AF500701ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QQ密码强度显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.QQ------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ密码强度显示.app/QQ密码强度显示";
+			};
+			name = Release;
+		};
+		633BE72A1C827AF500701ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QQ密码强度显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.QQ------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QQ密码强度显示";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		633BE72B1C827AF500701ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QQ密码强度显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreenDo.QQ------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QQ密码强度显示";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633BE6EE1C827AF400701ACB /* Build configuration list for PBXProject "QQ密码强度显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633BE7211C827AF500701ACB /* Debug */,
+				633BE7221C827AF500701ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633BE7231C827AF500701ACB /* Build configuration list for PBXNativeTarget "QQ密码强度显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633BE7241C827AF500701ACB /* Debug */,
+				633BE7251C827AF500701ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		633BE7261C827AF500701ACB /* Build configuration list for PBXNativeTarget "QQ密码强度显示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633BE7271C827AF500701ACB /* Debug */,
+				633BE7281C827AF500701ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		633BE7291C827AF500701ACB /* Build configuration list for PBXNativeTarget "QQ密码强度显示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633BE72A1C827AF500701ACB /* Debug */,
+				633BE72B1C827AF500701ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		633BE7021C827AF400701ACB /* QQ______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				633BE7031C827AF400701ACB /* QQ______.xcdatamodel */,
+			);
+			currentVersion = 633BE7031C827AF400701ACB /* QQ______.xcdatamodel */;
+			path = "QQ______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 633BE6EB1C827AF400701ACB /* Project object */;
+}
